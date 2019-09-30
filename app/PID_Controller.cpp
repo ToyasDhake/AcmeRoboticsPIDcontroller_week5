@@ -30,7 +30,7 @@ double _ki, double _setpoint, double _velocity) {
 
 /**
 * @brief compute function for calculating pid values--- stub function
-* @author Shivam Akhauri
+* @author Toyas Dhake
 */
 double PIDController::compute() {
     double error = setpoint - velocity;
