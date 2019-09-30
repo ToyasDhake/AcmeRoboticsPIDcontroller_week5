@@ -37,3 +37,10 @@ TEST(PID_Controller, MinVelocity) {
   EXPECT_LT(0.0, maxv);
 }
 
+TEST(PID_Controller, DivideByZeroError) {
+  PIDController pid(0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+  pid.max_velocity(100.0);
+  pid.min_velocity(0.0);
+  double vel = pid.compute();
+  EXPECT_EQ(0.0, vel);
+}

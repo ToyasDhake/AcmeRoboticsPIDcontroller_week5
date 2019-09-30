@@ -43,7 +43,7 @@ store the file in your home directory
 
 cd &lt;path to directory&gt;
 
-cd /Week5/
+cd /AcmeRoboticsPIDcontroller_week5/
 
 mkdir build
 
@@ -61,9 +61,17 @@ To run program: ./app/shell-app
 
 To test program: ./test/cpp-test
 
+### Group Discussion overview
+
+We reached a conclusion of creating separate git branches for part b for team A and team B like we did for part A. We discussed on the UML diagrams, possible test cases like Divide by zero error, which can occur during compute function. We agreed on the unit test design architecture for our software and that the merge to the master would be done upon proper review by the Navigator. The following diagram represents an overview of the overall software architecture for testing.
+![](GroupDiscussion.png)
 
 ### Contributors
 
+Part A
 -Shivam Akhauri (Driver)
+-Chinmay Joshi (Navigator)
 
-Chinmay Joshi (Navigator)
+Part B
+-Toyas Dhake (Driver)
+-Jagadesh Nagireddi (Navigator)

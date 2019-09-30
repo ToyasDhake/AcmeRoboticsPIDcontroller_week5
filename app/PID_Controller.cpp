@@ -33,7 +33,25 @@ double _ki, double _setpoint, double _velocity) {
 * @author Shivam Akhauri
 */
 double PIDController::compute() {
-    double output = 5;
+    double error = setpoint - velocity;
+    double PrpOut = kp * error;
+
+    integral += error * dt;
+    double IntgOut = ki * error;
+    // check for divide by zero error
+    if (dt = 0)
+        return 0;
+    double derivative = (error - pre_error) / dt;
+    double Dout = kd * derivative;
+    // check for max and min criteria
+    double output = PrpOut + IntgOut + Dout;
+
+    pre_error = error;
+
+    if (output > max) {
+        output = max;
+    } else if (output < min) {}
+        {output = min;}
     return output;
 }
 /**
