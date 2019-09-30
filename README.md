@@ -30,11 +30,11 @@ The link to code coverage can be found here
 
 ### Travis path :
 
-[![Build Status](https://travis-ci.org/shivamakhauri04/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/shivamakhauri04/cpp-boilerplate)
+[![Build Status](https://travis-ci.org/ToyasDhake/AcmeRoboticsPIDcontroller_week5.svg?branch=master)](https://travis-ci.org/ToyasDhake/AcmeRoboticsPIDcontroller_week5)
 
 ### Coveralls :
 
-[![Coverage Status](https://coveralls.io/repos/github/shivamakhauri04/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/shivamakhauri04/cpp-boilerplate?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/ToyasDhake/AcmeRoboticsPIDcontroller_week5/badge.svg?branch=master)](https://coveralls.io/github/ToyasDhake/AcmeRoboticsPIDcontroller_week5?branch=master)
 
 ### Compiling and Running
 
