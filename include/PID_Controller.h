@@ -4,8 +4,8 @@
 * @brief declaration for PID_Controller class
 * Details. Private and public members of the class
 */
-#ifndef PID_CONTROLLER_H_
-#define PID_CONTROLLER_H_
+#ifndef INCLUDE_PID_CONTROLLER_H_
+#define INCLUDE_PID_CONTROLLER_H_
 
 #include <iostream>
 
@@ -30,4 +30,4 @@ class PIDController {
         double min_velocity(double min);
 };
 
-#endif  //  PID_CONTROLLER_H_
+#endif  //  INCLUDE_PID_CONTROLLER_H_
